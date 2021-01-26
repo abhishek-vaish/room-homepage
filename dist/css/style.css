@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+.container {
+  margin-right: 50px;
+}
+
+.slider {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+.slider .top-nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  text-transform: lowercase;
+  color: white;
+}
+
+.slider .top-nav-bar__nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6px 50px 0px;
+}
+
+.slider .top-nav-bar__nav-bar .nav-topic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider .top-nav-bar__nav-bar .nav-topic .name {
+  padding: 0px 10px 0px 10px;
+  font-size: small;
+}
+
+.slider .top-nav-bar__nav-bar .nav-topic .underline {
+  opacity: 0;
+  width: 22px;
+  height: 1.5px;
+  background-color: white;
+  margin-top: 3px;
+  z-index: 1;
+}
+
+.slider .top-nav-bar__nav-bar .nav-topic .underline .name:hover {
+  cursor: pointer;
+}
+
+.slider .top-nav-bar__nav-bar .nav-topic:hover .underline {
+  opacity: 1;
+}
+
+.slider .top-nav-bar p {
+  font-weight: 600;
+  font-size: 20pt;
+  margin: 0;
+  padding: 0;
+}
+
+.slider .content .slider-content {
+  padding: 100px 80px 0px 80px;
+  position: relative;
+  height: 466px;
+}
+
+.slider .content .slider-content h1 {
+  font-size: 30pt;
+}
+
+.slider .content .slider-content p {
+  color: #a1a1a1;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 10pt;
+  line-height: 22px;
+}
+
+.slider .content .slider-content span {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-size: small;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.slider .content .slider-content span:hover {
+  color: #a1a1a1;
+}
+
+.slider .content .slider-content .button-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.shop-now img:hover {
+  color: #a1a1a1;
+}
+
+.arrow {
+  background-color: black;
+  border: none;
+  padding: 20px 30px;
+  margin: 0;
+  outline: none;
+}
+
+.arrow:hover {
+  background-color: #a1a1a1;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about-content {
+  margin: 60px;
+}
+
+.about .about-content span {
+  font-size: 12pt;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.about .about-content p {
+  margin-top: 20px;
+  font-size: 9pt;
+  color: #a1a1a1;
+  line-height: 20px;
+}
+/*# sourceMappingURL=style.css.map */
